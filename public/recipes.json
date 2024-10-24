@@ -1,0 +1,98 @@
+[
+  {
+    "recipe_id": 1,
+    "recipe_name": "Grilled Chicken Teriyaki",
+    "recipe_image": "https://i.ibb.co.com/bdMTTq1/sam-moghadam-khamseh-Vp-Opy6-Qr-Drs-unsplash-min.jpg",
+    "short_description": "Juicy grilled chicken with a sweet and savory teriyaki glaze.",
+    "ingredients": [
+      "550 g chicken breast",
+      "120 ml soy sauce",
+      "60 ml honey",
+      "1 tbsp rice vinegar",
+      "1 tbsp sesame oil",
+      "2 garlic cloves, minced"
+    ],
+    "preparing_time": 30,
+    "calories": 320
+  },
+  {
+    "recipe_id": 2,
+    "recipe_name": "Spaghetti Carbonara",
+    "recipe_image": "https://i.ibb.co.com/5x9CRLQ/faez-daniel-1a-Xm7g-ETd-LE-unsplash-min.jpg",
+    "short_description": "A classic Italian pasta dish with eggs, cheese, pancetta, and pepper.",
+    "ingredients": [
+      "400 g spaghetti",
+      "150 g pancetta",
+      "2 large eggs",
+      "100 g Parmesan cheese",
+      "2 garlic cloves, minced",
+      "Freshly ground black pepper"
+    ],
+    "preparing_time": 20,
+    "calories": 450
+  },
+  {
+    "recipe_id": 3,
+    "recipe_name": "Vegan Buddha Bowl",
+    "recipe_image": "https://i.ibb.co.com/w7S8Km7/martin-baron-PBgb-Ib-Osprk-unsplash-min.jpg",
+    "short_description": "A nutritious bowl filled with quinoa, roasted veggies, and avocado.",
+    "ingredients": [
+      "1 cup quinoa",
+      "200 g roasted sweet potatoes",
+      "1 avocado, sliced",
+      "100 g spinach",
+      "1 tbsp olive oil",
+      "1 tbsp tahini sauce"
+    ],
+    "preparing_time": 25,
+    "calories": 400
+  },
+  {
+    "recipe_id": 4,
+    "recipe_name": "Classic Beef Tacos",
+    "recipe_image": "https://i.ibb.co.com/jGrjHm5/close-up-delicious-tacos-min.jpg",
+    "short_description": "Tasty tacos filled with seasoned beef, lettuce, and cheese.",
+    "ingredients": [
+      "500 g ground beef",
+      "120 g taco seasoning",
+      "12 taco shells",
+      "100 g shredded lettuce",
+      "150 g shredded cheddar cheese",
+      "100 g salsa"
+    ],
+    "preparing_time": 15,
+    "calories": 380
+  },
+  {
+    "recipe_id": 5,
+    "recipe_name": "Margarita Pizza",
+    "recipe_image": "https://i.ibb.co.com/JynNC9K/margarita-pizza-tomato-cheese-side-view-min.jpg",
+    "short_description": "A classic pizza topped with fresh tomatoes, mozzarella, and basil.",
+    "ingredients": [
+      "1 pizza dough",
+      "200 g mozzarella cheese",
+      "100 g fresh basil leaves",
+      "200 g tomato sauce",
+      "2 tbsp olive oil",
+      "Salt and pepper to taste"
+    ],
+    "preparing_time": 40,
+    "calories": 550
+  },
+  {
+    "recipe_id": 6,
+    "recipe_name": "Chocolate Chip Cookies",
+    "recipe_image": "https://i.ibb.co.com/Ntq40pV/chocolate-chip-gluten-free-cookies-min.jpg",
+    "short_description": "Crispy on the edges, chewy in the middle, classic chocolate chip cookies.",
+    "ingredients": [
+      "250 g all-purpose flour",
+      "100 g brown sugar",
+      "100 g granulated sugar",
+      "150 g butter",
+      "200 g chocolate chips",
+      "1 tsp vanilla extract"
+    ],
+    "preparing_time": 20,
+    "calories": 250
+  }
+]
