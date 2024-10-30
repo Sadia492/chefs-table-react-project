@@ -1,4 +1,6 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
+import "../Nav.css";
 
 export default function Navbar() {
   return (
@@ -26,42 +28,42 @@ export default function Navbar() {
               tabIndex={0}
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
             >
-              <li>
-                <a>Home</a>
-              </li>
+              <NavLink to="/">
+                <li>Home</li>
+              </NavLink>
 
-              <li>
-                <a>Recipes</a>
-              </li>
+              <NavLink to="/recipes">
+                <li>Recipes</li>
+              </NavLink>
 
-              <li>
-                <a>About</a>
-              </li>
+              <NavLink to="/about">
+                <li>About</li>
+              </NavLink>
 
-              <li>
-                <a>Search</a>
-              </li>
+              <NavLink to="/search">
+                <li>Search</li>
+              </NavLink>
             </ul>
           </div>
           <a className="text-2xl font-bold">Recipe Calories</a>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">
-            <li>
-              <a>Home</a>
-            </li>
+          <ul className="menu menu-horizontal gap-6 px-1">
+            <NavLink to="/">
+              <li className="p-2">Home</li>
+            </NavLink>
 
-            <li>
-              <a>Recipes</a>
-            </li>
+            <NavLink to="/recipes">
+              <li className="p-2">Recipes</li>
+            </NavLink>
 
-            <li>
-              <a>About</a>
-            </li>
+            <NavLink to="/about">
+              <li className="p-2">About</li>
+            </NavLink>
 
-            <li>
-              <a>Search</a>
-            </li>
+            <NavLink to="/search">
+              <li className="p-2">Search</li>
+            </NavLink>
           </ul>
         </div>
         <div className="navbar-end">

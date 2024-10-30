@@ -13,9 +13,10 @@ import {
   getItemFromTime,
   removeItemFromLS,
 } from "../Utilities/LocalStorage";
+import { useLoaderData, useNavigation } from "react-router-dom";
 
 function Recipes() {
-  const [recipes, setRecipes] = useState([]);
+  const recipes = useLoaderData();
   const [cook, setCook] = useState([]);
   const [preparedRecipe, setPreparedRecipe] = useState([]);
 
